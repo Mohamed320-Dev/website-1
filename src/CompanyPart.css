@@ -1,0 +1,41 @@
+.d-company-part {
+  margin-top: -40px;
+  margin-left: -8px;
+  width: 1349px;
+  height: 320px;
+}
+
+.title-element {
+  color: #00b4ff;
+  font-size: 46px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.img-1-company {
+  width: 250px;
+  margin-left: 155px;
+  margin-top: 54px;
+}
+
+.img-2-company {
+  position: absolute;
+  width: 220px;
+  margin-left: 78px;
+  margin-top: 33px;
+}
+
+.img-3-company {
+  position: absolute;
+  width: 250px;
+  margin-left: 345px;
+  margin-top: 31px;
+}
+
+.img-4-company {
+  position: absolute;
+  width: 135px;
+  margin-left: 622px;
+  margin-top: 33px;
+}

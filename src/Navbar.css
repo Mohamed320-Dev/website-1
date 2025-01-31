@@ -1,0 +1,116 @@
+.d-navbar {
+  position: relative;
+  margin: 0;
+  height: 100vh;
+  margin-top: -8px;
+  margin-left: -8px;
+  width: 1349px;
+}
+
+.d-navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/bg-first-d.jpg); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Ensure it stays behind content */
+}
+
+.d-navbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with opacity */
+  z-index: -1; /* Ensure it stays behind content */
+}
+
+.first-text-body {
+  color: white;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 85px;
+  width: 1200px;
+  font-size: 52.42px;
+  font-family: "Oswald", sans-serif;
+  line-height: 4.2rem;
+}
+
+.change-text {
+  color: #00b4ff;
+  transition: opacity 0.5s ease-in-out; /* Smooth transition for changing text */
+}
+
+.fade-in {
+  animation: fadeIn 0.5s forwards;
+}
+
+/* Fade-out animation */
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+/* Fade-in keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Fade-out keyframes */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.btn-1 {
+  position: absolute;
+  margin-left: 125px;
+  font-size: 13px;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 380px;
+  padding: 10px 20px;
+  background-color: #00b4ff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-1:hover {
+  background-color: #021f3e;
+}
+
+.btn-2 {
+  position: absolute;
+  margin-left: 355px;
+  font-size: 13px;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 380px;
+  padding: 10px 20px;
+  background-color: #00b4ff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-2:hover {
+  background-color: #021f3e;
+}

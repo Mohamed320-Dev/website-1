@@ -23,6 +23,7 @@ export default function App() {
       <BelievePart />
       <FooterPart />
       <EndPart />
+      {/* hy */}
     </div>
   );
 }
